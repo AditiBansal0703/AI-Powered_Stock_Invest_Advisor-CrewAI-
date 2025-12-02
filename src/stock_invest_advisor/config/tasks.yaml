@@ -1,0 +1,45 @@
+financial_analysis_task:
+  description: >
+    Analyze the financial fundamentals of {{company_name}} including revenue growth,
+    EPS growth, PE ratio, ROE, ROCE, net margin, intrinsic value, cash flow health,
+    debt-to-equity ratio, and long-term earnings potential.
+    Provide clear strengths and weaknesses based on financial data.
+  expected_output: >
+    A structured financial analysis report with bullet points for:
+    strengths, weaknesses, and long-term financial outlook.
+  agent: financial_analyst
+
+market_research_task:
+  description: >
+    Research market sentiment and recent developments surrounding {{company_name}}.
+    Include sector trends, investor sentiment, analyst predictions, global news,
+    and macroeconomic conditions that may impact the share price.
+  expected_output: >
+    A detailed market trends and sentiment summary including:
+    positive signals, negative signals, and overall sector outlook.
+  agent: market_researcher
+
+risk_assessment_task:
+  description: >
+    Evaluate risk factors associated with {{company_name}} including promoter
+    pledging, debt risk, competition pressure, volatility, management trust
+    concerns, business model risks, and external uncertainties.
+  expected_output: >
+    A risk assessment summary with:
+    top risks, explanations of each risk, and stability score (Low / Medium / High).
+  agent: risk_analyst
+
+decision_task:
+  description: >
+    Combine the findings from financial, market, and risk reports and output a
+    final investment recommendation for {{company_name}} in the following format:
+
+    Recommendation: INVEST / HOLD / AVOID
+    Investment Horizon: Short-term / Long-term / Both
+    Risk Level: Low / Medium / High
+    Reasoning: Bullet points summary of key reasons
+    Estimated Target Price Range (if information allows)
+  expected_output: >
+    A single final investment summary clearly recommending INVEST, HOLD, or AVOID,
+    including the reasoning and estimated target price range if possible.
+  agent: decision_maker
