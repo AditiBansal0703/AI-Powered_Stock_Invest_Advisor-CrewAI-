@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # StockInvestAdvisor Crew
 
 Welcome to the StockInvestAdvisor Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
@@ -52,3 +53,6 @@ For support, questions, or feedback regarding the StockInvestAdvisor Crew or cre
 - [Chat with our docs](https://chatg.pt/DWjSBZn)
 
 Let's create wonders together with the power and simplicity of crewAI.
+=======
+# AI-Powered_Stock_Invest_Advisor-CrewAI-
+>>>>>>> e20d05e05102fdae5686f64e15e6fb6d9f311bd5
