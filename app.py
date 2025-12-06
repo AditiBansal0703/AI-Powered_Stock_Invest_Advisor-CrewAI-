@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from stock_invest_advisor.crew import StockInvestAdvisor
+import os
 
 
 app = Flask(__name__)
@@ -15,5 +16,7 @@ def analyze():
     return render_template("result.html", company=company, result=result)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
+
 
