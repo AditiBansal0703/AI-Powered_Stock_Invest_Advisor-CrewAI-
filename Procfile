@@ -1,1 +1,1 @@
-web: gunicorn stock_invest_advisor.app:app
+web: gunicorn app:app
